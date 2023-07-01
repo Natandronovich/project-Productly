@@ -1,0 +1,20 @@
+.button{
+    padding: 11px 25px 13px;
+    font-family: 'Open Sans', Verdana, sans-serif;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.2rem;
+}
+
+.button_bordered{
+    background: $color-light;
+    border: 1px solid $color-border;
+    color: $color-text;
+}
+
+.button_colored{
+    background: $color-primary;
+    color: $color-light;
+    border: none;
+}
