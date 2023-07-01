@@ -5,6 +5,9 @@
     font-style: normal;
     font-weight: 600;
     line-height: 2.2rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
 }
 
 .button_bordered{
@@ -13,8 +16,20 @@
     color: $color-text;
 }
 
+.button_bordered:hover{
+    background: $color-hovered;
+    border-color: $color-hovered;
+}
+
 .button_colored{
     background: $color-primary;
+    border: 1px solid $color-primary;
     color: $color-light;
-    border: none;
+    // border: none;
+}
+
+.button_colored:hover{
+    background: $color-additional;
+    border-color: $color-additional;
+    // border: none;
 }
