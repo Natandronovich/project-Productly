@@ -1,3 +1,7 @@
+.logo-path {
+  transition: all 0.3s ease-out;
+}
+
 html {
   font-size: 10px;
 }
@@ -77,6 +81,10 @@ h5 {
   border-color: #FF7549;
 }
 
+.logo-svg:hover .logo-path {
+  fill: #FF9900;
+}
+
 .wrapper {
   max-width: 1197px;
   margin: auto;
@@ -94,11 +102,11 @@ h5 {
   justify-content: space-between;
 }
 
-.header__buttons > button {
+.header__buttons > .button {
   margin-left: 14px;
 }
 
-.header__buttons > button:first-child {
+.header__buttons > .button_bordered:first-child {
   margin-left: 14px;
   margin-left: 0;
 }
